@@ -17,15 +17,16 @@ body{
 
 .container{
     display: flex;
-    width: 980px;
+    width: 1280px;
     align-items: center;
     justify-content: center;
     gap:15px;
+    
 }
 
 .left-side{
     color: white;
-    width: 60%;
+    width: 40%;
 }
 
 .main-heading{
@@ -53,6 +54,7 @@ box-shadow: 0 5px 0px 0px rgba(0, 0, 0, 0.2) ;
     border-radius: 10px;
     padding: 20px;
     margin-top: 20px;
+    
  }
 
  .card form input{
@@ -69,6 +71,7 @@ margin: 20px;
     font-size: 15px;
     font-weight: 500;
     font-family: 'Poppins',sans-serif;
+    border-radius: 5px;
  }
 
  input:active, input:focus{
@@ -76,7 +79,8 @@ outline: 1px solid hsl(248, 32%, 49%) ;
  }
 
  .button{
-    width: 100%;
+    width: 90%;
+    margin-left: 20px;
     padding: 15px 20px;
     background-color: hsl(154, 59%, 51%) ;
     text-align: center;
@@ -95,6 +99,7 @@ outline: 1px solid hsl(248, 32%, 49%) ;
     text-align: center;
     font-size: 13px;
     color: hsl(246, 25%, 77%) ;
+    padding-bottom: 20px;
  }
 
  .privacy-message a {
@@ -102,3 +107,4 @@ outline: 1px solid hsl(248, 32%, 49%) ;
     color: hsl(0, 100%, 74%);
     font-weight: 600;
  }
+ 
